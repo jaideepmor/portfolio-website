@@ -1,0 +1,112 @@
+
+/* basic */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* transition */
+
+/* navbar */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: #756AB6;
+}
+
+.nav-links {
+    gap: 10rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: wheat;
+}
+
+a:hover {
+    color: silver;
+}
+
+#Layer_1:hover{
+    fill: silver;
+}
+
+/* profile section */
+
+#profile {
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 80vh;
+}
+
+.profile-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.profile-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    font-family: cursive;  
+}
+
+/* skills section */
+
+.skills {
+   width: 100%;
+   height: 750px;
+   background-color: white;
+   text-align: center;
+}
+
+/* education section */
+
+.education {
+    width: 100%;
+    height: 750px;
+    background-color: whitesmoke;
+}
+
+/* project section */
+
+.projects {
+    width: 100%;
+    height: 750px;
+    background-color: white;
+}
+
+/* contact section */
+
+.contact-me {
+   width: 100%;
+   height: 750px;
+   background-color: whitesmoke;
+}
+
