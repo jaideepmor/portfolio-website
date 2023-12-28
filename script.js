@@ -1,3 +1,8 @@
+document.getElementById('mobile-menu').addEventListener('click', function () {
+  var navMenu = document.querySelector('.nav-links');
+  navMenu.classList.toggle('show');
+});
+
 $(document).ready(function(){
     $('.sk-sub-sec-con').slick({
       // Slick Carousel settings/options

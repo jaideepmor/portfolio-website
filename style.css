@@ -29,6 +29,19 @@ html{
     list-style: none;    
 }
 
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -150,7 +163,7 @@ p {
     height: 600px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: silver;
+    background-color: #9fbccc;
 }
 
 .sk-sub-sec-h-con {
