@@ -51,7 +51,7 @@ a:hover {
     align-items: center;
     gap: 250px;
     height: 700px;
-    background-image: url("./profile-background-img.jpg");
+    background-image: url("./profile-background-image.jpg");
     background-size:cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -60,7 +60,7 @@ a:hover {
 .prof-img-con img {
     width: 350px;
     height: 350px;
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
     border-radius: 50%;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 .prof-sec-text-con {
     text-align: center;
     padding: 35px 0 100px 0;
-    color: whitesmoke;
+    color: black;
 }
 
 p {
@@ -115,10 +115,14 @@ p {
    width: 100%;
    height: 750px;
    background-color: white;
-   background-image: url("./skills-background-image.png");
+   background-image: url("./skills-background-image.jpg");
    background-size:cover; 
    background-position: center;
    background-repeat: no-repeat;   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 .sk-sec-h-con {
@@ -132,10 +136,8 @@ p {
 }
 
 .sk-sub-sec-con {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    height: 650px;
+    height: 600px;
+    width: 350px;
     font-size: x-large;    
 }
 
@@ -165,7 +167,7 @@ p {
     justify-content: left;
     padding: 12.5px 0 12.5px 0px;
     font-size: large;
-    gap: 7.5px;
+    gap: 75px;
 }
 
 .sub-sec-icon img {
@@ -177,16 +179,27 @@ p {
     text-align: center;
 }
  
+.skill-button-con {
+    display: flex;
+    justify-content: center;
+    padding: 12.5px 0 12.5px 0px;
+    font-size: large;     
+}
+
 /* education section */
 
 #education {
     width: 100%;
     height: 750px;
     background-color: whitesmoke;
-    background-image: url("./education-background-image.png");
-    background-size:cover; 
+    background-image: url("./eduaction-background-image.jpg");
+    background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
 }
 
 .edu-sec-h-con {
@@ -201,18 +214,17 @@ p {
 }
 
 .edu-sub-sec-con {
-    display: flex;
-    justify-content: space-evenly;
-    height: 550px;
-    font-size: x-large;    
+    height: 500px;
+    width: 350px;
+    font-size: x-large;
 }
 
 .edu-sub-sec-con-1, .edu-sub-sec-con-2, .edu-sub-sec-con-3, .edu-sub-sec-con-4 {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: silver;
 }
 
 .edu-sub-sec-h-con {
@@ -243,6 +255,10 @@ p {
     background-size:cover; 
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .pro-sec-h-con {
@@ -257,19 +273,18 @@ p {
 }
 
 .pro-sub-sec-con {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    height: 550px;
+    height: 500px;
+    width: 350px;
     font-size: x-large;    
 }
 
 .pro-sub-sec-con-1, .pro-sub-sec-con-2 {
     width: 300px;
-    height: 400px;
+    height: 500px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
+    padding: 5px 0 5px 0;
 }
 
 .pro-sub-sec-h-con {
@@ -278,7 +293,7 @@ p {
     text-align: center;
     text-decoration: underline;
     padding: 5px 5px 5px 5px;
-    gap: 40px;
+    gap: 75px;
 }
 
 .pro-sub-sec-icon img {
@@ -302,11 +317,13 @@ p {
     border-radius: 5px;
 }
 
+
+
 /* contact section */
 
 #contact {
    width: 100%;
-   height: 715px;
+   height: 707.5px;
    background-color: whitesmoke;
    background-image: url("./contact-background-image.png");
    background-size:cover; 
@@ -335,8 +352,6 @@ p {
 .con-sub-sec-con-1 {
     width: 300px;
     height: 325px;
-    border: 2px solid black;
-    border-radius: 10px;
 }
 
 .con-sub-sec-h-con {
